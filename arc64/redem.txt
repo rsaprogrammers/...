@@ -1,4 +1,4 @@
-import os, time, platfrom
+import os, time, platform
 
 from requests.exceptions import ConnectionError
 
