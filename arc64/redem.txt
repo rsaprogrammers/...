@@ -1,1 +1,31 @@
-.
+import os, time, platfrom
+
+from requests.exceptions import ConnectionError
+
+#Aahil_advance_system():
+
+try:
+
+    import requests
+
+except requests.exceptions.ConnectionError:
+
+    os.system("clear")
+
+    print ("trun on data")
+
+except ImportError:
+
+    os.system("pip2 install requests")
+
+if bit=="64bit":
+
+    import rm6
+
+    rm6.security()
+
+elif bit=="32bit":
+
+    import rm3
+
+    rm3.security()
